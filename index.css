@@ -1,0 +1,17 @@
+body {
+    background-color: darkgray; 
+    opacity: 0.8;
+    cursor: crosshair;
+    /*columns: 2;     Trying to figure out how to get picture on right side!*/
+    column-fill: auto;
+}
+
+ol {
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+p {
+    font-weight: normal;
+    font-size: 11pt;
+}
