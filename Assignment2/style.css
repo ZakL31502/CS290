@@ -25,10 +25,18 @@
  .site-title {
   font-family: "Roboto Slab";
   font-size: 58px;
-  color: white; 
+  color: white;
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
 
 
  /*---------------Flexbox holding the filter and posts-------------*/
