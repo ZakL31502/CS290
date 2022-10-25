@@ -165,7 +165,7 @@ body {
 
   
   display: block;
-  justify-content: start;
+  justify-content: center;
  }
 
  a.post-title {
@@ -194,7 +194,7 @@ body {
 
  .post-image-container {
   height: 175px;
-  width = 280px;
+  width: 280px;
  }
  .post-info-container {
   margin-top: 20px;
