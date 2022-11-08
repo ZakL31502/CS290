@@ -64,3 +64,39 @@ console.log("== array: ", Array)
 Array.forEach(function (elem, idx){
     console.log(" -- inside forEach loop ", idx , ", elem: ", elem)
 })
+
+console.log("==========")
+console.log("== Objects")
+console.log("==========")
+
+var person = {
+    firstName: "Luke",
+    lastName: "Skywalker",
+    age: 22,
+    getFullName: function() {
+        return this.firstName + " " + this.lastName
+    },
+    parents: ["Darth", "Amadala"]
+}
+person.father = "Darth Vader"
+
+console.log("== person:", person)
+console.log("== person['firstName']:", person['firstName'])
+console.log("== person.firstName:", person.firstName)
+console.log("== person.fullName:", person.getFullName())
+
+function Person(firstName, lastName, age) {
+    this.firstName = firstName
+    this.lastName = lastName
+    this.age = age
+}
+
+Person.prototype.getFullName = function() {
+    return this.firstName + " " + this.lastName
+}
+
+
+
+var p = new Person("Leia", "Organa", 22)
+console.log("== p: ", p)
+console.log("== p.fullName: ", p.getFullName())
